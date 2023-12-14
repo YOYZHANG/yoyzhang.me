@@ -10,6 +10,7 @@ import routes from '~react-pages'
 import 'uno.css'
 import './styles/main.css'
 import '@unocss/reset/tailwind.css'
+import './styles/markdown.css'
 
 console.log(routes, 'routes');
 

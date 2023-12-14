@@ -10,7 +10,7 @@ export default defineConfig({
     UnoCSS(),
     react(),
     Markdown({
-      wrapperComponent: 'WrapperPost'
+      wrapperComponent: { ListPosts: "src/components/ListPosts.tsx" }
     }),
     Pages({
       dirs: 'pages',

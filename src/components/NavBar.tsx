@@ -8,7 +8,7 @@ export default function Nav() {
           <div className="i-ri-arrow-up-line m-auto"></div>
         </button>
         <nav className='nav'>
-          <Link to={``}>
+          <Link to={`/posts`}>
             <span>Blog</span>
           </Link>
           <Link to={``}>
@@ -25,6 +25,9 @@ export default function Nav() {
           </a>
           <a href="/feed.xml" target="_blank" title="RSS">
             <div className="i-la-rss-square" />
+          </a>
+          <a target="_blank" title="Theme">
+            <div className="i-ri-sun-line dark:i-ri-moon-line" />
           </a>
         </nav>
       </header>
