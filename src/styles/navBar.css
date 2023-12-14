@@ -1,0 +1,29 @@
+.nav {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav img {
+  margin-bottom: 0;
+}
+
+.nav a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease;
+  opacity: 0.6;
+  outline: none;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.nav a:hover {
+  opacity: 1;
+  text-decoration-color: inherit;
+}
+
+
